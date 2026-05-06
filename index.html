@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pratik Portfolio</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+
+    <div class="bg-animation"></div>
+
+    <!-- NAVBAR -->
+
+    <section class="navbar">
+
+        <div class="myname">
+            Pratik's Portfolio
+        </div>
+
+        <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Academics">Academics</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </section>
+
+    <!-- HERO SECTION -->
+
+    <section class="herosec">
+
+        <div class="left">
+
+            <div>
+                Hi, I'm
+                <span class="intro">Pratik</span>
+            </div>
+
+            <div>
+                A Passionate
+                <span id="element"></span>
+            </div>
+
+            <div class="hero-text">
+                I enjoy building websites, working on embedded systems,
+                and learning modern technologies.
+            </div>
+
+            <button class="resume-btn">
+                Download Resume
+            </button>
+
+        </div>
+
+        <div class="right">
+            <img src="devbg.png" alt="developer image">
+        </div>
+
+    </section>
+
+    <hr class="divider">
+
+    <!-- SKILLS -->
+
+    <h1 class="title">MY SKILLS</h1>
+
+    <section id="skills">
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Power BI</li>
+        </ul>
+
+    </section>
+
+    <hr class="divider">
+
+    <!-- PROJECTS -->
+
+    <h1 class="title">PROJECTS</h1>
+
+    <section id="projects">
+
+        <div class="project-card">
+            <h2>Road Accident Dashboard</h2>
+
+            <p>
+                Created an interactive Power BI dashboard
+                to analyze yearly road accident trends,
+                casualties, and area-wise insights.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h2>ESP32 Mini Drone</h2>
+
+            <p>
+                Developed a mini drone using ESP32 and MPU6050
+                with sensor integration and wireless control.
+            </p>
+        </div>
+
+    </section>
+
+    <hr class="divider">
+
+    <!-- ACADEMICS -->
+
+    <h1 class="title">ACADEMICS</h1>
+
+    <section id="Academics">
+
+        <div class="academic-card">
+
+            <h3>Secondary Education (10th)</h3>
+
+            <ul>
+                <li>Scored 94%</li>
+                <li>Strong academic consistency and fundamentals.</li>
+            </ul>
+
+        </div>
+
+        <div class="academic-card">
+
+            <h3>Higher Secondary Education (12th)</h3>
+
+            <ul>
+                <li>Scored 69%</li>
+                <li>Focused on engineering entrance preparation.</li>
+            </ul>
+
+        </div>
+
+        <div class="academic-card">
+
+            <h3>Competitive Exams</h3>
+
+            <ul>
+                <li>JEE Mains - 82 Percentile</li>
+                <li>MHT-CET - 96 Percentile</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <hr class="divider">
+
+    <!-- CONTACT -->
+
+    <h1 class="title">CONTACT ME</h1>
+
+    <section id="contact">
+
+        <a href="mailto:panditpratik.a@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="https://linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        © 2026 | Pratik Pandit | All Rights Reserved
+    </footer>
+
+    <!-- TYPED JS -->
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <script>
+
+        var typed = new Typed('#element', {
+
+            strings: [
+                'Student.',
+                'Developer.',
+                'Tech Enthusiast.',
+                'Drone Builder.'
+            ],
+
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+
+        });
+
+    </script>
+
+</body>
+</html>
